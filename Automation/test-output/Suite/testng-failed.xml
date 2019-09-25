@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="ACDCWebPortal.Androidclass">
+        <methods>
+          <include name="Androidtest"/>
+        </methods>
+      </class> <!-- ACDCWebPortal.Androidclass -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="ACDCWebPortal.MobileWebTest">
+        <methods>
+          <include name="mobileWeb"/>
+        </methods>
+      </class> <!-- ACDCWebPortal.MobileWebTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="ACDCWebPortal.processManuscriptUsingWebortal">
+        <methods>
+          <include name="testConfigReader"/>
+          <include name="createWebDriver"/>
+          <include name="destroy"/>
+          <include name="processManuscriptFile"/>
+          <include name="preSuite"/>
+        </methods>
+      </class> <!-- ACDCWebPortal.processManuscriptUsingWebortal -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

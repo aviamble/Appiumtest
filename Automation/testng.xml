@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+    <test name="Test1">
+    <classes>
+      <class name="ACDCWebPortal.Androidclass"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Test2">
+    <classes>
+      <class name="ACDCWebPortal.MobileWebTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Test3">
+    <classes>
+      <class name="TestFramework.basics5"/>
+    </classes>
+  </test> 
+  <test name="Test4">
+    <classes>
+      <class name="ACDCWebPortal.processManuscriptUsingWebortal"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->
